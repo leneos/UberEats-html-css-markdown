@@ -10,7 +10,6 @@ header {
   background: #ffffff;
   box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
   padding: 16px 8px;
-  margin-bottom: 32px;
 }
 
 .header-logo {
@@ -85,7 +84,7 @@ header {
 }
 
 .search {
-  margin-bottom: 13px;
+  padding-top: 32px;
 }
 
 .search-searchbar {
@@ -128,6 +127,7 @@ input::placeholder {
 .whento_align {
   display: flex;
   width: 100%;
+  padding-top: 13px;
 }
 
 .whento-loc {
@@ -353,7 +353,7 @@ footer {
     width: 100%;
   }
   .footer-privacy-adaptive {
-    flex-direction: row !important;
+    flex-direction: row;
   }
   .footer-language {
     width: 66.67%;
@@ -373,7 +373,7 @@ footer {
     max-width: 100%;
   }
   .footer-apps {
-    padding: 40px 0 !important;
+    padding: 40px 0;
   }
   .footer-language {
     width: 66.67%;
