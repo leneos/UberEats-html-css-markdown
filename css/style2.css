@@ -1,0 +1,305 @@
+main {
+  padding: 0 0;
+  margin: 0 0;
+}
+
+.restinfo {
+  width: 100%;
+}
+
+.restinfo-bcgimage {
+  margin-top: -32px;
+  height: 225px;
+  width: 100%;
+  background-image: url(../img/traktir.png);
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.restinfo_block {
+  top: 110px;
+  position: relative;
+  padding: 20px 20px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+  border-radius: 2px;
+}
+
+.restinfo_block_h1 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+.restinfo_block_type {
+  color: #626262;
+  font-size: 14px;
+}
+
+.restinfo_block_button {
+  border: none;
+  color: #fff;
+  background-color: #262626;
+  font-size: 13px;
+  border-radius: 16px;
+  padding: 9px 0;
+  margin: 0 auto;
+  width: 97px;
+}
+
+.restinfo_block_button_p {
+  margin: 0 0;
+}
+
+.food_h2 {
+  text-align: center;
+  font-weight: 400;
+  margin-top: 80px;
+}
+
+.food_hr {
+  width: 50px;
+}
+
+.food-categories {
+  border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+  padding: 33px 0px;
+}
+
+#active {
+  color: #327430;
+}
+
+.food-categories_a {
+  margin-right: 33px;
+  color: #626262;
+  text-decoration: none;
+}
+
+.food-cards {
+  clear: both;
+  margin-top: 50px;
+}
+
+.food-cards-dish {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e3e3e3;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.food-cards-picture {
+  display: flex;
+}
+
+.food-cards-dish-text {
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.food-cards-dish_name {
+  margin: 0 0;
+  font-size: 14px;
+  color: #1d1d1d;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.food-cards-dish_det {
+  font-size: 13px;
+  margin: 0 0;
+  color: #626262;
+  margin-bottom: 10px;
+}
+
+.food-cards-dish_price {
+  font-weight: 500;
+  color: #1d1d1d;
+  margin: 0 0;
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 576px) {
+  .container {
+    width: 560px;
+    max-width: 100%;
+  }
+  p {
+    font-size: 11px;
+  }
+  .header_button1,
+  .header_button2 {
+    font-size: 11px;
+    padding: 13px 19px;
+  }
+  .flex-column {
+    flex-direction: column;
+  }
+  .footer-privacy-adaptive {
+    flex-direction: column;
+  }
+  .footer-social {
+    margin-bottom: 40px;
+  }
+  .restinfo_block_button_p {
+    margin: 0 0;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 752px;
+    max-width: 100%;
+  }
+  p {
+    font-size: 13px;
+  }
+  .header_button1,
+  .header_button2 {
+    font-size: 11px;
+    padding: 11px 19px;
+  }
+  .footer-privacy {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .footer-privacy-adaptive {
+    flex-direction: row !important;
+  }
+  .food_h2 {
+    text-align: left !important;
+    font-weight: 400;
+  }
+  .food-cards-dish {
+    border: 1px solid #e3e3e3;
+    padding-left: 15px;
+    border-radius: 2px;
+  }
+  .food-cards-dish:hover {
+    background-color: #f9f9f9;
+  }
+  .food-cards-dish_name {
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+  .restinfo-bcgimage {
+    height: 364px;
+    width: 100%;
+    background-image: url(../img/traktir_md.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .restinfo_block_h1 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .restinfo_block {
+    top: 110px;
+    position: relative;
+    padding: 30px 30px;
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+    border-radius: 2px;
+  }
+  .restinfo_block-align {
+    display: flex;
+  }
+  .restinfo_block_h1 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  .restinfo_block_type {
+    color: #626262;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: auto;
+  }
+  .restinfo_block_button {
+    border: none;
+    display: block;
+    color: #fff;
+    background-color: #262626;
+    font-size: 13px;
+    width: 97px;
+    margin: 0 0 0 auto;
+    text-align: center;
+    border-radius: 16px;
+  }
+  .food_h2 {
+    text-align: center;
+    font-weight: 400;
+  }
+  .food_hr {
+    width: 50px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 976px;
+    max-width: 100%;
+  }
+  .restinfo-bcgimage {
+    height: 364px;
+    width: 100%;
+    background-image: url(../img/traktir_xl.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1184px;
+    max-width: 100%;
+  }
+  .footer-apps {
+    padding: 40px 0 !important;
+  }
+  .food-categories {
+    margin-bottom: 30px;
+  }
+  .food_h2 {
+    margin-top: 60px;
+  }
+  .restinfo-bcgimage {
+    height: 364px;
+    width: 100%;
+    background-image: url(../img/traktir_xl.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .restinfo_block {
+    top: 110px;
+    position: relative;
+    padding: 50px 20px;
+    text-align: center;
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+    border-radius: 2px;
+  }
+}
