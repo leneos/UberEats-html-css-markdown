@@ -1,0 +1,32 @@
+{
+  "name": "ubereats",
+  "version": "1.0.0",
+  "description": "verstka ubereats",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cssnext": "^1.8.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-postcss": "^7.0.1",
+    "stylelint-config-standard": "^18.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leneos/verstka.git"
+  },
+  "keywords": [
+    "erodionov",
+    "ubereats"
+  ],
+  "author": "vshakhov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leneos/verstka/issues"
+  },
+  "homepage": "https://github.com/leneos/verstka#readme"
+}
