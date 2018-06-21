@@ -355,9 +355,7 @@ footer {
   .footer-privacy-adaptive {
     flex-direction: row !important;
   }
-  .footer-language {
-    width: 66.67%;
-  }
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -375,7 +373,5 @@ footer {
   .footer-apps {
     padding: 40px 0 !important;
   }
-  .footer-language {
-    width: 66.67%;
-  }
+ 
 }
